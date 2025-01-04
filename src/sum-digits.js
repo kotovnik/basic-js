@@ -14,9 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function getSumOfDigits(n) {
   let nStr = `${n}`;
-  console.log(`число, которое нужно сложить: ${n}`);
   let resultDigit = 0;
-  console.log(`resultDigit: ${resultDigit}`);
   while (nStr.length > 1) {
     resultDigit = 0;
     for (let i = 0; i < nStr.length; i += 1) {
